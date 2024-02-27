@@ -10,4 +10,4 @@ tasks:
         key: npm-cache-{{ checksum "package-lock.json" }}
         paths:
         - node_modules
-    - run: npm test
+    - run: npm test 
